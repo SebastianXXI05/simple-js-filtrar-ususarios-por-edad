@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtra usuarios por edad</title>
+  <script defer type="module" src="app.js"></script>
+  <style>
+    h1 {
+      margin-bottom: 1.2em;
+    }
+
+    #result div {
+      border: 3px solid red;
+      font-size: 1.1em;
+      text-align: center;
+      margin: 1em;
+      padding: 0.5em 1em;
+    }
+
+    input:checked + b {
+      color: steelblue
+    }
+
+  </style>
+</head>
+<body>
+  <input type="radio" name="edad-radio" value="all" checked><b>Todos</b><br>
+  <input type="radio" name="edad-radio" value="max18"><b>mayor que 18</b><br>
+  <input type="radio" name="edad-radio" value="min18"><b>menor que 18</b>
+  <h1>Resultado</h1>
+  <div id="result"></div>
+</body>
+</html>

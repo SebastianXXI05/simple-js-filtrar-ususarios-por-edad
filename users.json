@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "nombre": "Tian",
+    "edad": 18
+  },
+  {
+    "id": 1,
+    "nombre": "Kiko",
+    "edad": 11
+  },
+  {
+    "id": 2,
+    "nombre": "Juan",
+    "edad": 22
+  },
+  {
+    "id": 0,
+    "nombre": "John",
+    "edad": 14
+  },
+  {
+    "id": 0,
+    "nombre": "Kenedy",
+    "edad": 33
+  },
+  {
+    "id": 0,
+    "nombre": "Lola",
+    "edad": 5
+  },
+  {
+    "id": 0,
+    "nombre": "Ryan",
+    "edad": 26
+  },
+  {
+    "id": 0,
+    "nombre": "Jackson",
+    "edad": 19
+  },
+  {
+    "id": 0,
+    "nombre": "Marie",
+    "edad": 30
+  }
+]
